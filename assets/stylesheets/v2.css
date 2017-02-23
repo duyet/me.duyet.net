@@ -2626,10 +2626,12 @@ table th[class*="col-"] {
     padding: 10px 15px;
     font-family: 'Open Sans',sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 17px;
+    font-weight: 300;
+    font-size: 15px;
 }
-
+.nav-header li a  {
+    font-weight: 700;
+}
 .nav>li>a:hover,
 .nav>li>a:focus {
     text-decoration: none;
