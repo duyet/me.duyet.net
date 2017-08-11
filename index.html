@@ -103,7 +103,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#sidebar">
-    <header role="banner">
+    <header role="banner" style="display: none">
         <!-- a href="https://github.com/duyetdev" target="_blank">
             <div class="ribbon">GitHub</div>
         </a -->
@@ -130,57 +130,40 @@
         </div>
     </header>
     <div role="main">
-        <div class="band band-inverse">
+        <div class="band">
             <div class="container">
                 <div class="row">
                     <div class='col-sm-6'>
                         <h1>Van-Duyet Le</h1>
                         <p>Data Engineer - learn, work, and play with the data.<br/>Full-Stack Developer - I am passion about building awesome products, also rock in Javascript, Nodejs and Machine Learning.</p>
-                        <p>Interested startup: fresh vegetable, health, charity.
-                            <br>
+                        <p>
                             <p>University of Information Technology - Vietnam National University. </p>
                             <p>
                                 [
-                                <a class="features-txt" href="resume/index.html" onclick="ga('send', 'event', 'track_mesite_intro', 'click_resume', 'me.duyetdev.com')"> <span class="lnr lnr-briefcase"></span> resume</a>, <a class="features-txt" href="/resume/resume-DuyetLe-08082017.pdf"><span class="lnr lnr-license"></span> CV.pdf</a> ] [
+                                <a class="features-txt" href="resume/index.html" onclick="ga('send', 'event', 'track_mesite_intro', 'click_resume', 'me.duyetdev.com')"> <span class="lnr lnr-briefcase"></span> resume</a>, <a class="features-txt" href="/resume/CV.Duyet.latest.pdf"><span class="lnr lnr-license"></span> CV.pdf</a> ] [
                                 <a class="features-txt" href="https://github.com/duyetdev" onclick="ga('send', 'event', 'track_mesite_intro', 'click_github', 'me.duyetdev.com')"> <span class="lnr lnr-code"></span> project</a> ] [
                                 <a class="features-txt" href="publications/index.html" onclick="ga('send', 'event', 'track_mesite_intro', 'click_publication', 'me.duyetdev.com')"> <span class="lnr lnr-briefcase"></span> publications</a> ]
                             </p>
                             <p>
                                 <!-- Lastest new project -->
-                                <a href="http://demo.duyet.net" onclick="ga('send', 'event', 'track_mesite', 'click_demo.duyetdev.com', 'me.duyetdev.com')" target="_blank" style="color:red; font-weight:700">Checkout new demo.duyet.net!</a>
+                                <!-- <a href="http://demo.duyet.net" onclick="ga('send', 'event', 'track_mesite', 'click_demo.duyetdev.com', 'me.duyetdev.com')" target="_blank" style="color:red; font-weight:700">Checkout new demo.duyet.net!</a> -->
                             </p>
                             <!-- <a href="https://blog.duyet.net" class="btn btn-primary btn-lg btn-block-xs">Learn more</a> -->
                     </div>
                     <div class='col-sm-6'>
-                        <figure class="highlight"><pre><span style='color:#e66170; font-weight:bold; '>import</span> <span style='color:#b060b0; '>{</span> CV <span style='color:#b060b0; '>}</span> from <span style='color:#02d045; '>'</span><span style='color:#00c4c4; '>duyetdev-core</span><span style='color:#02d045; '>'</span><span style='color:#b060b0; '>;</span>
-
-<span style='color:#e66170; font-weight:bold; '>const</span> profile <span style='color:#d2cd86; '>=</span> <span style='color:#b060b0; '>{</span>
-    name <span style='color:#b060b0; '>:</span> <span style='color:#02d045; '>'</span><span style='color:#00c4c4; '>Van-Duyet Le</span><span style='color:#02d045; '>'</span><span style='color:#d2cd86; '>,</span>
-    email <span style='color:#b060b0; '>:</span> <span style='color:#d2cd86; '>[</span><span style='color:#02d045; '>'</span><span style='color:#00c4c4; '>me</span><span style='color:#02d045; '>'</span><span style='color:#d2cd86; '>,</span> <span style='color:#02d045; '>'</span><span style='color:#00c4c4; '>duyetdev.com</span><span style='color:#02d045; '>'</span><span style='color:#d2cd86; '>]</span><span style='color:#d2cd86; '>.</span><span style='color:#e66170; font-weight:bold; '>join</span><span style='color:#d2cd86; '>(</span><span style='color:#02d045; '>'</span><span style='color:#00c4c4; '>@</span><span style='color:#02d045; '>'</span><span style='color:#d2cd86; '>)</span><span style='color:#d2cd86; '>,</span>
-    phone<span style='color:#b060b0; '>:</span> `<span style='color:#008c00; '>0</span>$<span style='color:#b060b0; '>{</span><span style='color:#008c00; '>1662626000</span> <span style='color:#d2cd86; '>+</span> <span style='color:#008c00; '>9</span><span style='color:#b060b0; '>}</span>`
-<span style='color:#b060b0; '>}</span><span style='color:#b060b0; '>;</span>
-
-CV<span style='color:#d2cd86; '>(</span>profile<span style='color:#d2cd86; '>)</span><span style='color:#d2cd86; '>.</span>then<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span> <span style='color:#d2cd86; '>=</span><span style='color:#d2cd86; '>></span> <span style='color:#b060b0; '>{</span>
-    console<span style='color:#d2cd86; '>.</span>error<span style='color:#d2cd86; '>(</span>`not available <span style='color:#e66170; font-weight:bold; '>for</span> hire!`<span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
-    console<span style='color:#d2cd86; '>.</span><span style='color:#e66170; font-weight:bold; '>log</span><span style='color:#d2cd86; '>(</span>`You have a project<span style='color:#d2cd86; '>,</span> \
-        please contact <span style='color:#e66170; font-weight:bold; '>for</span> remote working<span style='color:#d2cd86; '>.</span>`<span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
-<span style='color:#b060b0; '>}</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
-</pre></figure>
-<!--
-import { CV } from 'duyetdev-core';
+                        <figure class="highlight"><pre>import { CV } from 'duyetdev-core';
 
 const profile = {
     name : 'Van-Duyet Le',
-    email : ['me', 'duyetdev.com'].join('@'),
+    email : ['me', 'duyet.net'].join('@'),
     phone: `0${1662626000 + 9}`
 };
 
 CV(profile).then(() => {
-    console.error(`not available for hire!`);
-    console.log(`You have a project, \
-        please contact for remote working.`);
+    console.info(`<span style="color:#e66170; font-weight:bold; ">looking for a job
+        in Data Engineer, BigData!</span>`);
 });
--->
+</pre></figure>
                         
                         
                 </div>
@@ -198,9 +181,9 @@ CV(profile).then(() => {
                 </div>
                 <div class='text-center col-sm-6 col-md-3'>
                     <div class="icon icon-learn"></div>
-                    <h3>Data Science</h3>
+                    <h3>Data Engineer</h3>
                     <p class="margin-bottom-none-md">
-                        Machine Learning, Data Mining, Crawler.
+                        Machine Learning, Data Mining, Scraping, Apache Spark.
                     </p>
                 </div>
                 <div class='text-center col-sm-6 col-md-3'>
@@ -213,27 +196,31 @@ CV(profile).then(() => {
                     <h3>Contact</h3>
                     <p class="margin-bottom-none-md">
                         Drop me a line
-                        <script>
-                        {
-                            var coded = "N6@Dw56ZD6o.FLN";
-                            var key = "FxVtg89odQnTA21jufZsyBLDmik3PCEwlaW5reMN07OXhS4czYJK6HvRbIUqpG";
-                            var shift = coded.length;
-                            var mail = '';
-                            for (var i = 0; i < coded.length; i++) {
-                                if (key.indexOf(coded.charAt(i)) == -1) {
-                                    ltr = coded.charAt(i);
-                                    mail += (ltr);
-
-                                } else {
-
-                                    ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length;
-                                    mail += (key.charAt(ltr));
+                        <script type="text/javascript" language="javascript">
+                            <!--
+                            // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                            // Random encryption key feature coded by Andrew Moulden
+                            // This code is freeware provided these four comment lines remain intact
+                            // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                            { coded = "1B@P9YBm.0Bm"
+                              key = "AwyVzENOJ9XcKnYGiWQdx6qHs0t4LF7PkUZoa3mfeCITSv5rpl1bB2Rgh8DuMj"
+                              shift=coded.length
+                              link=""
+                              for (i=0; i<coded.length; i++) {
+                                if (key.indexOf(coded.charAt(i))==-1) {
+                                  ltr = coded.charAt(i)
+                                  link += (ltr)
                                 }
+                                else {     
+                                  ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                                  link += (key.charAt(ltr))
+                                }
+                              }
+                            document.write("<a href='mailto:"+link+"'>"+link+"</a>")
                             }
+                            //-->
+                            </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
-                            document.write("<a class='features-txt' data-wow-delay=\"1.0s\" href='mailto:" + mail + "'><i class=\"fa fa-inbox\"></i> " + mail + "</a>")
-                        }
-                        </script>
                     </p>
                 </div>
             </div>
@@ -296,22 +283,22 @@ CV(profile).then(() => {
         <div class="container">
             <div class="row">
                 <div class='col-sm-3'>
-                    <h3 class="nav-head">Sitemap</h3>
+                    <h3 class="nav-head">Links</h3>
                     <ul class='nav nav-silent'>
                         <li><a href="http://sitemap.duyet.net" target="_blank">Global Sitemap</a></li>
                         <li><a href="https://blog.duyet.net" target="_blank">Blog</a></li>
-                        <li><a href="/resume/index.html">Resume</a></li>
-                        <li><a href="https://contact.duyetdev.com">Contact</a></li>
+                        <!-- <li><a href="/resume/index.html">Resume</a></li> -->
+                        <!-- <li><a href="https://contact.duyetdev.com">Contact</a></li> -->
                     </ul>
                 </div>
                 <div class='col-sm-3'>
                     <h3 class="nav-head">Connect</h3>
                     <ul class='nav nav-silent'>
-                        <li><a href="https://github.com">Github Profile</a></li>
+                        <li><a href="https://github.com/duyetdev">Github</a></li>
                         <li><a href="https://www.linkedin.com/in/duyetdev">Linkedin Profile</a></li>
                         <li><a href="http://twitter.com/duyetdev">Twitter</a></li>
                         <li><a href="https://www.npmjs.com/~duyetdev">NPM Profile</a></li>
-                        <li><a href="#">me [a] duyetdev.com</a></li>
+                        <li><a href="https://21.co/duyetdev">21.co/duyetdev</a></li>
                     </ul>
                 </div>
                 <div class='col-sm-3'>
@@ -327,13 +314,14 @@ CV(profile).then(() => {
                     <h3 class="nav-head">Announce</h3>
                     <p class="features-txt">
                         Checkout new <a href="http://save.duyet.net">saveto</a> service.
-                        <br /> Currently working at <a href="http://jvn.edu.vn">JVN Institute</a> and <a href="https://labx.tech">LabX</a>.
+                        <br /> Currently working at <a href="http://jvn.edu.vn">JVN Institute</a>.
                         
                     </p>
                 </div>
             </div>
         </div>
     </footer>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
     window.jQuery || document.write('<scr' + 'ipt src="assets/lib/jquery/dist/jquery.min.js"><\/scr' + 'ipt>')
