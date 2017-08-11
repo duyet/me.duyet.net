@@ -1,8 +1,8 @@
 # Me at Duyetdev
 
-Public at http://me.duyetdev.com
+Public at https://me.duyet.net
 
-Email: me(a)duyetdev.com
+Email: me(a)duyet.net
 
 # Install 
 
