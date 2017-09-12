@@ -100,6 +100,12 @@
     </div>
     </noscript>
     <!-- End Quantcast tag -->
+    
+    <script>
+        window.noMessenger = function() {
+            return alert("To prevent spams, please contact via email me[a]duyet.net");
+        }
+        </script>
 </head>
 
 <body data-spy="scroll" data-target="#sidebar">
@@ -267,7 +273,7 @@ CV(profile).then(() => {
                     </a>
                 </div>
                 <div class='col-xs-4 col-md-2'>
-                    <a href='#' target='_blank' onclick="ga('send', 'event', 'track_mesite_contact', 'click_fb_messenger', 'me.duyet.net')">
+                    <a href='#' target='_blank' onclick="noMessenger(); ga('send', 'event', 'track_mesite_contact', 'click_fb_messenger', 'me.duyet.net')">
                         <div class="icon icon-messenger margin-bottom-none-md"></div>
                         <span class="sr-only">Messenger</span>
                     </a>
