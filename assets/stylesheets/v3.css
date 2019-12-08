@@ -1,0 +1,16 @@
+html {
+  font: normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif
+}
+
+h1 {
+  font-family: Roboto, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  margin: 0 20px 30px 0;
+  color: #003e54;
+  font-size: 40px;
+  font-weight: 300;
+  box-shadow: inset 0 -8px 0 #fc0;
+  -webkit-box-shadow: inset 0 -8px 0 #fc0;
+  -moz-box-shadow: inset 0 -8px 0 #fc0;
+  -o-box-shadow: inset 0 -8px 0 #fc0;
+  -ms-box-shadow: inset 0 -8px 0 #fc0;
+}
